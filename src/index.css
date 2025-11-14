@@ -8,51 +8,54 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Doces da Déia Color Palette */
+    --background: 38 50% 97%; /* Branco creme #FAF7F2 */
+    --foreground: 28 24% 44%; /* Marrom suave #8B7355 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 38 50% 97%;
+    --card-foreground: 28 24% 44%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 38 50% 97%;
+    --popover-foreground: 28 24% 44%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 23 60% 57%; /* Laranja queimado #D4834F */
+    --primary-foreground: 38 50% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 32 47% 90%; /* Bege claro #F5E6D3 */
+    --secondary-foreground: 28 24% 44%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 32 47% 90%;
+    --muted-foreground: 28 24% 54%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 3 51% 56%; /* Vermelho terra #C85A54 */
+    --accent-foreground: 38 50% 97%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 38 50% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 32 47% 85%;
+    --input: 32 47% 85%;
+    --ring: 23 60% 57%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
+    /* Custom design tokens */
+    --warm-brown: 28 24% 44%;
+    --soft-beige: 32 47% 90%;
+    --burnt-orange: 23 60% 57%;
+    --earth-red: 3 51% 56%;
+    --cream: 38 50% 97%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    /* Gradients */
+    --gradient-warm: linear-gradient(135deg, hsl(23 60% 57%) 0%, hsl(3 51% 56%) 100%);
+    --gradient-soft: linear-gradient(180deg, hsl(38 50% 97%) 0%, hsl(32 47% 90%) 100%);
 
-    --sidebar-primary: 240 5.9% 10%;
+    /* Shadows */
+    --shadow-warm: 0 4px 20px -4px hsl(23 60% 57% / 0.15);
+    --shadow-card: 0 2px 16px -2px hsl(28 24% 44% / 0.1);
 
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
