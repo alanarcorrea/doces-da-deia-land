@@ -9,7 +9,7 @@ const About = () => {
         <div className="bg-card rounded-2xl p-8 md:p-12 shadow-[var(--shadow-card)]">
           <p className="text-lg md:text-xl text-card-foreground leading-relaxed space-y-6">
             <span className="block">
-              Sou a Andréia, mas todo mundo me chama de Déia. Tenho 60 anos e aprendi a fazer doces com quem mais entendia do assunto: minha mãe.
+              Sou a Andréia, mas todo mundo me chama de Déia. Sou pelotense, tenho 54 anos e aprendi a fazer doces com quem mais entendia do assunto: minha mãe.
             </span>
             <span className="block">
               Cada receita que preparo carrega memórias de tardes na cozinha, risadas em família e aquele carinho que só um doce feito em casa tem.
